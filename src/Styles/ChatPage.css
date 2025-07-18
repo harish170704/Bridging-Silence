@@ -1,0 +1,75 @@
+/* ChatPage.css */
+
+.chat-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.chat-box {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.chat-message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  line-height: 1.5;
+}
+
+.chat-message.sent {
+  background-color: #d1ecf1;
+  text-align: right;
+}
+
+.chat-message.received {
+  background-color: #d4edda;
+  text-align: left;
+}
+
+.chat-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat-input input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.chat-input button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #2980b9;
+}
+.chat-input button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}

@@ -1,0 +1,76 @@
+/* === HomePage Styles === */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive; /* 👉 Decorative font */
+  color: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;              /* 👉 More spacing between buttons */
+  padding-right: 80px;    /* 👉 Move group left from edge */
+}
+
+.nav-button {
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.nav-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05); /* 👈 small hover effect */
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #ecf0f1;
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+}
+.footer a {
+  color: #3498db;
+  text-decoration: none;
+}
